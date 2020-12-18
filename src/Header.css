@@ -2,11 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 100;/* Always be at the top in case there is a long page */
     border-bottom: 1px solid #f9f9f9;
 }
 .header_logo{
     /* Keeps aspect ratio */
     object-fit: contain; 
     height: 40px;
+}
+.header_icon{
+    padding:20px;
 }
