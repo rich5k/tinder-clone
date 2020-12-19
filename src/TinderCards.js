@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import TinderCard from "react-tinder-card";
 import "./TinderCards.css";
+
 function TinderCards() {
     const [people, setPeople]= useState([
         {
@@ -11,6 +12,18 @@ function TinderCards() {
         {
             name: 'Travis Greene',
             url: 'https://mtracks.azureedge.net/public/images/artists/cover/512/717.jpg'
+        },
+        {
+            name: 'Parris Chariz',
+            url: 'https://i0.wp.com/respect-mag.com/wp-content/uploads/2020/02/artist-31461.jpeg?resize=640%2C457&ssl=1'
+        },
+        {
+            name: 'Marintia Goto-Williams',
+            url: 'https://pbs.twimg.com/profile_images/1204290471700373505/TO1wSeSz_400x400.jpg'
+        },
+        {
+            name: 'Drake',
+            url: 'https://variety.com/wp-content/uploads/2019/05/drake-raptor.jpg'
         },
     ]);
 
